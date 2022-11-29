@@ -10,7 +10,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 2- Reinicie o computador:
 
-3- Abra o powershell como administrador novamente e execute o comando para alterar a versão do wsl para 2:
+3- Abra o powershell (como usuario normal) novamente e execute o comando para alterar a versão do wsl para 2:
 
 wsl --set-default-version 2
 
