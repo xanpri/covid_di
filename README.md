@@ -46,8 +46,12 @@ wsl --cd c:\temp\covid
 
 2- Deixe o script executavel (OBS: execute somente a primeira vez, não é necessário executar outras vezes)
 
-chmod +x localiza_id_covid.sh
+chmod +x *.sh
 
 3- execute o script e siga os pricedimento do script:
 
+3.1- Para localizar o ID:
 ./localiza_id_covid.sh
+
+3.2- Para dividir o arquivo em 4 trimestres:
+./div_covid_trimestre.sh
