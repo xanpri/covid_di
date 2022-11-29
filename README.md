@@ -35,9 +35,8 @@ mkdir c:\temp\covid
 git clone https://github.com/xanpri/covid_id.git .
 
 
-
-
 =====================================================
+
 Para executar o script no Windows:
 
 1- abra o terminal e execute
@@ -50,8 +49,10 @@ chmod +x *.sh
 
 3- execute o script e siga os pricedimento do script:
 
-3.1- Para localizar o ID:
+  3.1- Para localizar o ID:
+
 ./localiza_id_covid.sh
 
-3.2- Para dividir o arquivo em 4 trimestres:
+  3.2- Para dividir o arquivo em 4 trimestres:
+
 ./div_covid_trimestre.sh
