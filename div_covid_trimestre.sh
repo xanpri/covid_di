@@ -4,16 +4,6 @@
 ARQUIVO='covid19_2021.csv' #Digite entre aspas simples o nome do arquivo que sera pesquisado
 ARQUIVO_FILTRO='covid19_2021' #Digite entre aspas simples o nome do arquivo que sera salvo
 
-#Faz Download do arquivo
-    echo 
-    echo "****************************************************************"
-    echo Copie o link do arquivo para baixar:
-    echo
-    tput setaf 1; echo -n "Cole o link copiado : "; tput sgr0
-    read PARTE;
-
-    wget $PARTE -O $ARQUIVO
-
 #Inicia a separacao dos arquivos por trimestre
 CONT=1
     head -n 1 "$ARQUIVO" > "$ARQUIVO_FILTRO"_"$CONT"tri.csv
